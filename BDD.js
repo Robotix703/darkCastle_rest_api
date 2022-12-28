@@ -16,6 +16,7 @@ if (process.env.NODE_ENV === "production") {
 }
 
 //Connexion à la BD
+mongoose.set("strictQuery", false);
 mongoose.connect(
     "mongodb://" + user + ":" + pwd + "@" + host + "/" + name
     , { useNewUrlParser: true, useUnifiedTopology: true })
