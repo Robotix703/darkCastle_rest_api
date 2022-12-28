@@ -1,0 +1,31 @@
+{
+  "name": "darkCastle_rest_api",
+  "version": "1.0.0",
+  "description": "Dark Castle Rest API",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "runDev": "NODE_ENV=dev node server.js",
+    "start": "NODE_ENV=production node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Robotix703/darkCastle_rest_api.git"
+  },
+  "author": "SCH",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Robotix703/darkCastle_rest_api/issues"
+  },
+  "homepage": "https://github.com/Robotix703/darkCastle_rest_api#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^6.7.0",
+    "mongoose-unique-validator": "^3.1.0",
+    "multer": "^1.4.4"
+  }
+}
